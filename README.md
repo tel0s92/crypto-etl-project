@@ -12,12 +12,19 @@ afim de traçar comparativos e obter informações específicas.
 
 .Divisão de Tarefas e Atribuições dos Membros/Colaboradores da Equipe:
 Marcelo Cesar Milagres Ferreira -Líder do projeto e desenvolvedor principal.
+
 Rehael de Holanda Henriques - Pesquisa e validação dos datasets.
+
 Gilson Ferreira de Lima - Auxiliar de tratamento e padronização dos dados.
+
 Ian Manoel Almeida do Vale - Análise exploratória de dados.
+
 Daniel Nascimento de Araujo - Documentação e organização do projeto.
+
 Fabio Roberto Soares Filho - Suporte ao dashboard e experiência visual.
+
 Vinicius Viana Pedrosa - Testes e validação do sistema.
+
 
 
 .Objetivo da Análise
