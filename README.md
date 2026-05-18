@@ -11,6 +11,7 @@ afim de traçar comparativos e obter informações específicas.
 
 
 .Divisão de Tarefas e Atribuições dos Membros/Colaboradores da Equipe:
+
 Marcelo Cesar Milagres Ferreira -Líder do projeto e desenvolvedor principal.
 
 Rehael de Holanda Henriques - Pesquisa e validação dos datasets.
