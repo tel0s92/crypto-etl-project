@@ -19,9 +19,7 @@ DOLAR_BRL = 5.50
 # CONEXÃO COM BANCO
 # =========================
 
-conn = sqlite3.connect(
-    r"C:\Users\Marcelo\Desktop\crypto-etl-project\database\crypto.db"
-)
+conn = sqlite3.connect("database/crypto.db")
 
 # =========================
 # LEITURA DOS DADOS

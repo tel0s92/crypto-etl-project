@@ -3,7 +3,7 @@ import os
 import sqlite3
 
 # Caminho da pasta com os CSVs
-pasta = r"C:\Users\Marcelo\Desktop\crypto-etl-project\data\raw"
+pasta = "data/raw"
 
 # Lista para armazenar os DataFrames
 lista_df = []
@@ -35,14 +35,12 @@ df_final.dropna(inplace=True)
 
 # Salvar CSV tratado
 df_final.to_csv(
-    r"C:\Users\Marcelo\Desktop\crypto-etl-project\data\processed\crypto_data.csv",
+    "data/processed/crypto_data.csv",
     index=False
 )
 
 # Criar banco SQLite
-conn = sqlite3.connect(
-    r"C:\Users\Marcelo\Desktop\crypto-etl-project\database\crypto.db"
-)
+conn = sqlite3.connect("database/crypto.db")
 
 # Salvar tabela no banco
 df_final.to_sql(
